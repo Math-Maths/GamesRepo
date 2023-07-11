@@ -31,4 +31,12 @@ public class PlayerMovement : MonoBehaviour
             transform.position = new Vector2(-halfCameraWidthScreenSize, transform.position.y);
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.tag == "Block")
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

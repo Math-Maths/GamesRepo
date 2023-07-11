@@ -8,7 +8,7 @@ public class BlockSpawner : MonoBehaviour
     public GameObject fallingBlockPrefab;
     public Vector2 spawnSizeMinMax;
 
-    public float secondsBetweenSpawns = 2f;
+    public Vector2 secondsBetweenSpawnsMinMax;
     public float spawnAngleMax;
 
     float newxtSpawn;
@@ -25,11 +25,12 @@ public class BlockSpawner : MonoBehaviour
     {
         if(Time.time > newxtSpawn)
         {
+            float secondsBetweenSpawns = Mathf.Lerp(secondsBetweenSpawnsMinMax.y, secondsBetweenSpawnsMinMax.x, Difficult.GetSecondsToMaxDifficult());
             newxtSpawn = Time.time + secondsBetweenSpawns;
 
             float spawnSize = Random.Range(spawnSizeMinMax.x, spawnSizeMinMax.y);
             float spawnAngle = Random.Range(-spawnAngleMax, spawnAngleMax);
-            Vector2 spawnPos = new Vector2(Random.Range(-screenHalfSizeWorldUnity.x, screenHalfSizeWorldUnity.x), screenHalfSizeWorldUnity.y + spawnSize);
+            Vector2 spawnPos = new Vector2(Random.Range(-screenHalfSizeWorldUnity.x, screenHalfSizeWorldUnity.x), screenHalfSizeWorldUnity.y + spawnSize + 1);
             GameObject newBlock = (GameObject)Instantiate(fallingBlockPrefab, spawnPos, Quaternion.Euler(Vector3.forward * spawnAngle));
             newBlock.transform.localScale = Vector3.one * spawnSize;
         }

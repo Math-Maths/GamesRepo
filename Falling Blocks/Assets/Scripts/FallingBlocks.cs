@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class FallingBlocks : MonoBehaviour
 {
+    public Vector2 speedMinMax;
 
     [SerializeField]
-    float speed = 7f;
+    float speed;
     
+    void Start()
+    {
+        speed = Mathf.Lerp(speedMinMax.y, speedMinMax.x, Difficult.GetSecondsToMaxDifficult());
+    }
+
     void Update()
     {
         transform.Translate(Vector2.down * speed * Time.deltaTime, Space.Self);
