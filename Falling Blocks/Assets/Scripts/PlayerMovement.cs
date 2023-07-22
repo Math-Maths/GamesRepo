@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     float halfCameraWidthScreenSize;
 
+    public event System.Action OnPlayerDeath;
+
     void Start()
     {
         float playerHalfWidth = transform.localScale.x / 2f;
@@ -36,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(other.tag == "Block")
         {
+            if(OnPlayerDeath != null) OnPlayerDeath();
             Destroy(this.gameObject);
         }
     }
