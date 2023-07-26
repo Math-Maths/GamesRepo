@@ -60,7 +60,7 @@ MonoBehaviour:
     canCrouch: 1
     crouchDelay: 2
     standingDelay: 2
-    canJump: 1
+    canJump: 0
     pressureSensitiveJump: 0
     _jumpForce:
       _serializedValue: 171798691840
@@ -91,13 +91,13 @@ MonoBehaviour:
     overrideControlFreak: 0
     controlFreak2Prefab: {fileID: 0}
     zAxisMovement: 0
-    disableJump: 0
-    disableCrouch: 0
+    disableJump: 1
+    disableCrouch: 1
     jumpButton: 2
     crouchButton: 3
   hideGauges: 00000000000000000000
   _executionTiming:
-    _serializedValue: 1288490188
+    _serializedValue: 1288490240
   possibleAirMoves: 1
   _blendingTime:
     _serializedValue: 429496736

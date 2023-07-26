@@ -1547,7 +1547,7 @@ MonoBehaviour:
   cameraMovements: []
   hits:
   - activeFramesBegin: 6
-    activeFramesEnds: 10
+    activeFramesEnds: 9
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -1962,11 +1962,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 0
+        _serializedValue: -1367579520
       y:
-        _serializedValue: 0
+        _serializedValue: 13932986368
       z:
-        _serializedValue: 0
+        _serializedValue: -366787968
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
