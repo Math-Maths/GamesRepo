@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="background" style="flex-grow: 1;">
+        <ui:VisualElement name="top_panel" style="height: 12%;">
+            <ui:VisualElement name="user_profile_icon" style="left: 5%; top: 18%; width: 51%; height: 12%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom_panel" style="right: auto; bottom: auto; flex-grow: 1; height: auto; position: relative; top: 70%; max-height: 18%; justify-content: center;" />
+    </ui:VisualElement>
+</ui:UXML>
