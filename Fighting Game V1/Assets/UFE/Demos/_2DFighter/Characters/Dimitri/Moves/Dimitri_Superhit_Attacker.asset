@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 144
+  totalFrames: 164
   startUpFrames: 2
   activeFrames: 70
-  recoveryFrames: 72
+  recoveryFrames: 92
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -127,21 +127,21 @@ MonoBehaviour:
   opponentOverride:
   - _position:
       x:
-        _serializedValue: 0
+        _serializedValue: 4294967296
       y:
         _serializedValue: 0
       z:
         _serializedValue: 0
     castingFrame: 0
-    blendSpeed: 80
+    blendSpeed: 100
     stun: 1
     _stunTime:
       _serializedValue: 0
     overrideHitAnimations: 1
-    resetAppliedForces: 1
+    resetAppliedForces: 0
     standUpOptions: 1
     characterSpecific: 0
-    move: {fileID: 0}
+    move: {fileID: 11400000, guid: e656309aac9535344bc77d360a040157, type: 2}
     characterSpecificMoves: []
     animationPreview: 0
     movesToggle: 0
@@ -544,7 +544,7 @@ MonoBehaviour:
       x:
         _serializedValue: 107374182400
       y:
-        _serializedValue: 0
+        _serializedValue: 8589934592
       z:
         _serializedValue: 0
     _pushForceAir:
