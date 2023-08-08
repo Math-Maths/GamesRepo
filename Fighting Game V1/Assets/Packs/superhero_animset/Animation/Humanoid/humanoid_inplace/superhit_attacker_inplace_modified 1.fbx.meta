@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 97dfbb04657f466090afcdbaaeda10b3
+guid: 4795899c01abe094196fd2750b1bfb81
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
@@ -435,7 +435,7 @@ ModelImporter:
       name: superhit_attacker
       takeName: superhit_attacker
       internalID: 0
-      firstFrame: 0
+      firstFrame: 10
       lastFrame: 82
       wrapMode: 0
       orientationOffsetY: 0
@@ -448,7 +448,7 @@ ModelImporter:
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
       heightFromFeet: 0

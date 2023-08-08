@@ -3501,7 +3501,7 @@ MonoBehaviour:
     buttonExecution: 00000000
     editorToggle: 1
     buttonSequenceToggle: 1
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -3550,7 +3550,7 @@ MonoBehaviour:
     recoverySpeed: 0
     hitConfirmType: 0
     preferableDistance: 3
-    gaugeUsage: 0
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1

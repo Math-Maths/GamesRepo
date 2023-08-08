@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17674454, g: 0.22123635, b: 0.30353448, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &367827124
 Transform:
   m_ObjectHideFlags: 0
@@ -462,7 +462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1370065575
 Transform:
   m_ObjectHideFlags: 0
@@ -491,6 +491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1591262138}
   - component: {fileID: 1591262139}
+  - component: {fileID: 1591262140}
   m_Layer: 5
   m_Name: TalkBotUI
   m_TagString: Untagged
@@ -535,6 +536,20 @@ MonoBehaviour:
   sourceAsset: {fileID: 9197481963319205126, guid: a92c631a665a0fc459ce0e5ef67efaa7,
     type: 3}
   m_SortingOrder: 0
+--- !u!114 &1591262140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591262137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ac25e74cf1e645b1cee16f670c5a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chatBoxRow: {fileID: 9197481963319205126, guid: 05395b2341b6171449a90baf97439ca4,
+    type: 3}
 --- !u!1001 &1715953868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -961,7 +976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2032640603
 RectTransform:
   m_ObjectHideFlags: 0
