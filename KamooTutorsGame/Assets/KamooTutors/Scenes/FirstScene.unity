@@ -550,6 +550,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatBoxRow: {fileID: 9197481963319205126, guid: 05395b2341b6171449a90baf97439ca4,
     type: 3}
+  answerChatBoxRow: {fileID: 9197481963319205126, guid: 0d431fae9c82b3a40814159c1a7ed781,
+    type: 3}
 --- !u!1001 &1715953868
 PrefabInstance:
   m_ObjectHideFlags: 0
