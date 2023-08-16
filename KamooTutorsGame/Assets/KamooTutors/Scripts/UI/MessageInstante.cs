@@ -3,46 +3,49 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+namespace KamooTutor
+{
 public class MessageInstante : MonoBehaviour
 {
 
     UIDocument talkScreen;
     TextField textField;
-    Button sendButton;
+    ScrollView scrollView;
     
     public VisualTreeAsset chatBoxRow;
     public VisualTreeAsset answerChatBoxRow;
     
     void OnEnable() 
     {
-        talkScreen = GetComponent<UIDocument>();
+        talkScreen = ScreensManager.instance.GetTalkScreenDocument();
+
+        scrollView = talkScreen.rootVisualElement.Q<ScrollView>("chat_colunm");
         textField = talkScreen.rootVisualElement.Q<TextField>("text_field");
-        sendButton = talkScreen.rootVisualElement.Q<Button>("send_button");
-        
-        sendButton.RegisterCallback<ClickEvent>(OnClickSend);
     }
 
-    void OnClickSend(ClickEvent evt)
-    {
-        if(textField.value != null && textField.value.Length > 0)
-        {
-            SendMessage(chatBoxRow);
-        }
-    }
 
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.P))
         {
-            SendMessage(answerChatBoxRow);
+            SendAnswer();
         }
     }
 
-    void SendMessage(VisualTreeAsset chatBox)
+    public void SendMessage()
     {
-        VisualElement chatBoxRoot = chatBox.Instantiate();
+        VisualElement chatBoxRoot = chatBoxRow.Instantiate();
         Label textMessage = chatBoxRoot.Q<Label>("text");
         textMessage.text = textField.value;
         talkScreen.rootVisualElement.Q("chat_colunm").Add(chatBoxRoot);
     }
+
+    public void SendAnswer()
+    {
+        VisualElement chatBoxRoot = answerChatBoxRow.Instantiate();
+        Label textMessage = chatBoxRoot.Q<Label>("text");
+        textMessage.text = textField.value;
+        talkScreen.rootVisualElement.Q("chat_colunm").Add(chatBoxRoot);
+    }
+}
 }

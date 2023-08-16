@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Dimitri
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 393830ebd7fc0ff438258ea16c9c3d21, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 3a1654350c3e9b84fbeb85b0d137eff0, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 3a6cbff2f142d3443b3fc3d2540ab7e3, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: d6f7045baa3692f49bc1a3bfdaa771f1, type: 3}
   characterName: Dimitri
   gender: 0
   characterDescription: 
-  selectionAnimation: {fileID: 0}
+  selectionAnimation: {fileID: 7400000, guid: 2ec6a950d6dbdc949a56df4945d0c709, type: 2}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
   height: 0

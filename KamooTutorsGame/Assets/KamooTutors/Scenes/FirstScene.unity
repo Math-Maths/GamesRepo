@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.84917444, g: 0.7877358, b: 1, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -481,6 +481,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1590940306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590940308}
+  - component: {fileID: 1590940307}
+  m_Layer: 0
+  m_Name: ScreensManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1590940307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590940306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85fce556e5187540a7766dedde34544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1590940308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590940306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1591262137
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +536,7 @@ GameObject:
   - component: {fileID: 1591262138}
   - component: {fileID: 1591262139}
   - component: {fileID: 1591262140}
+  - component: {fileID: 1591262141}
   m_Layer: 5
   m_Name: TalkBotUI
   m_TagString: Untagged
@@ -552,6 +597,18 @@ MonoBehaviour:
     type: 3}
   answerChatBoxRow: {fileID: 9197481963319205126, guid: 0d431fae9c82b3a40814159c1a7ed781,
     type: 3}
+--- !u!114 &1591262141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591262137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b734d1b13321b544ea3280c4b3e4e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1715953868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -793,6 +850,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8598543116914019121, guid: 685a0e7e58a0b8448ad820b9245edbf7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1790695
+      objectReference: {fileID: 0}
+    - target: {fileID: -8598543116914019121, guid: 685a0e7e58a0b8448ad820b9245edbf7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8598543116914019121, guid: 685a0e7e58a0b8448ad820b9245edbf7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.4929
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 685a0e7e58a0b8448ad820b9245edbf7,
         type: 3}
       propertyPath: m_Name
@@ -887,14 +959,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892855066}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -7.4173126, y: 2.9815998, z: 41.36203}
+  m_LocalRotation: {x: -0, y: 0.9973182, z: -0.07318704, w: 0}
+  m_LocalPosition: {x: -7.4173126, y: 2.9815998, z: 41.48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 367827124}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 8.394, y: 180, z: 0}
 --- !u!1 &1993338835
 GameObject:
   m_ObjectHideFlags: 0
