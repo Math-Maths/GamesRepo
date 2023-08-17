@@ -154,6 +154,14 @@ MonoBehaviour:
     linkableMoves:
     - {fileID: 11400000, guid: 4112a6c578722634c9159558acee6392, type: 2}
     - {fileID: 11400000, guid: afd108c4be3f9924083d52ce77e50803, type: 2}
+    - {fileID: 11400000, guid: 6e13c43df18e5604a80b9cddb7cf01c9, type: 2}
+    - {fileID: 11400000, guid: b888b4c7b11e5db4a89bdf4b66a671e0, type: 2}
+    - {fileID: 11400000, guid: 4b9df42d0936b2c41b7099798f468900, type: 2}
+    - {fileID: 11400000, guid: 5d91dddfeff0ad049972268d1dca90a8, type: 2}
+    - {fileID: 11400000, guid: e064793758a35d749a3f55948b748484, type: 2}
+    - {fileID: 11400000, guid: e3f405a2a04999e4c99c62220a875e7d, type: 2}
+    - {fileID: 11400000, guid: 08220f943f72ec044b7fff3aaece5ecc, type: 2}
+    - {fileID: 11400000, guid: 8c4092e768650424cad3426576f8191f, type: 2}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
@@ -531,11 +539,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -171445680
+        _serializedValue: -165703488
       y:
-        _serializedValue: 27120699392
+        _serializedValue: 27054442496
       z:
-        _serializedValue: 876344704
+        _serializedValue: 881959936
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
