@@ -18,7 +18,7 @@ public class MessageInstante : MonoBehaviour
     
     void OnEnable() 
     {
-        talkScreen = ScreensManager.instance.GetTalkScreenDocument();
+        talkScreen = ScreensUIManager.instance.GetTalkScreenDocument();
 
         scrollView = talkScreen.rootVisualElement.Q<ScrollView>("chat_colunm");
         scroller = scrollView.Q<Scroller>();

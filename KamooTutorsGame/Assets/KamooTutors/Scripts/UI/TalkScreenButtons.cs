@@ -13,7 +13,7 @@ public class TalkScreenButtons : MonoBehaviour
 
     void ActivateChat(ClickEvent click)
     {
-        ScreensManager.instance.ToggleChatVisibility(true);
+        ScreensUIManager.instance.ToggleChatVisibility(true);
     }
 
     public void SetButtons(UIDocument talkDocument)
