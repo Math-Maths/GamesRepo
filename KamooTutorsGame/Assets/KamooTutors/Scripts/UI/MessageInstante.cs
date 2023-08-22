@@ -11,6 +11,7 @@ public class MessageInstante : MonoBehaviour
     UIDocument talkScreen;
     TextField textField;
     ScrollView scrollView;
+    Scroller scroller;
     
     public VisualTreeAsset chatBoxRow;
     public VisualTreeAsset answerChatBoxRow;
@@ -20,6 +21,7 @@ public class MessageInstante : MonoBehaviour
         talkScreen = ScreensManager.instance.GetTalkScreenDocument();
 
         scrollView = talkScreen.rootVisualElement.Q<ScrollView>("chat_colunm");
+        scroller = scrollView.Q<Scroller>();
         textField = talkScreen.rootVisualElement.Q<TextField>("text_field");
     }
 
@@ -34,10 +36,14 @@ public class MessageInstante : MonoBehaviour
 
     public void SendMessage()
     {
-        VisualElement chatBoxRoot = chatBoxRow.Instantiate();
-        Label textMessage = chatBoxRoot.Q<Label>("text");
-        textMessage.text = textField.value;
-        talkScreen.rootVisualElement.Q("chat_colunm").Add(chatBoxRoot);
+        if(textField.value != null && textField.value != "")
+        {
+            VisualElement chatBoxRoot = chatBoxRow.Instantiate();
+            Label textMessage = chatBoxRoot.Q<Label>("text");
+            textMessage.text = textField.value;
+            talkScreen.rootVisualElement.Q("chat_colunm").Add(chatBoxRoot);
+            ScrollToBottom();
+        }
     }
 
     public void SendAnswer()
@@ -46,6 +52,12 @@ public class MessageInstante : MonoBehaviour
         Label textMessage = chatBoxRoot.Q<Label>("text");
         textMessage.text = textField.value;
         talkScreen.rootVisualElement.Q("chat_colunm").Add(chatBoxRoot);
+        ScrollToBottom();
+    }
+
+    void ScrollToBottom()
+    {
+        scroller.value = scroller.highValue;
     }
 }
 }

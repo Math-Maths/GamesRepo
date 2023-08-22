@@ -6,7 +6,7 @@ namespace KamooTutor
 public class TalkScreenButtons : MonoBehaviour 
 {
 
-    UIDocument talkScree;
+    UIDocument talkScreen;
 
     Button sendButton, chatButton, microphoneButton, translateButton;
 
@@ -18,7 +18,7 @@ public class TalkScreenButtons : MonoBehaviour
 
     public void SetButtons(UIDocument talkDocument)
     {
-        talkScree = talkDocument;
+        talkScreen = talkDocument;
         chatButton = GetButton(GameObjectsName.chatButton);
         chatButton.RegisterCallback<ClickEvent>(ActivateChat);
 
@@ -34,7 +34,7 @@ public class TalkScreenButtons : MonoBehaviour
 
     Button GetButton(string button_name)
     {
-        return talkScree.rootVisualElement.Q<Button>(button_name);
+        return talkScreen.rootVisualElement.Q<Button>(button_name);
     }
 
     void SendMessage(ClickEvent click)

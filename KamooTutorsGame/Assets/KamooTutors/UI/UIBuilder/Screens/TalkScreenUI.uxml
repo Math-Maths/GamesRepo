@@ -20,6 +20,7 @@
             </ui:Button>
         </ui:VisualElement>
         <ui:VisualElement name="chat_panel" focusable="false" style="flex-grow: 1; top: 35%; display: flex; visibility: hidden;">
+            <ui:VisualElement name="black_background" style="flex-grow: 0; flex-shrink: 0; width: 100%; height: 100%; bottom: 40%; background-color: rgba(0, 0, 0, 0.48); position: absolute;" />
             <ui:VisualElement name="chat_backgroung" style="flex-grow: 1; background-color: rgb(218, 221, 255); border-top-left-radius: 85px; border-bottom-left-radius: 85px; border-top-right-radius: 85px; border-bottom-right-radius: 85px; border-left-width: 22px; border-right-width: 22px; border-top-width: 22px; border-bottom-width: 22px; border-left-color: rgb(100, 140, 255); border-right-color: rgb(100, 140, 255); border-top-color: rgb(100, 140, 255); border-bottom-color: rgb(100, 140, 255); overflow: visible; flex-direction: column; display: flex; padding-left: 16px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px;">
                 <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="chat_colunm" touch-scroll-type="Unrestricted" style="flex-basis: 50%; flex-direction: column-reverse; justify-content: flex-start; align-items: stretch; background-color: rgba(0, 0, 0, 0); border-top-left-radius: 100px; border-bottom-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 100px;" />
                 <ui:VisualElement name="text_field_row" style="flex-direction: row; width: auto;">
