@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/KamooTutors/Scenes/WorldViewScene.unity
+    guid: 365241e151a9c5f449d187ae2762fed5
+  - enabled: 1
+    path: Assets/KamooTutors/Scenes/HappyBurguerScene.unity
+    guid: ed1344ee717fd634ba0b49cace3dc728
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 5d602214cc382a745bdc350df5f89c88, type: 2}
