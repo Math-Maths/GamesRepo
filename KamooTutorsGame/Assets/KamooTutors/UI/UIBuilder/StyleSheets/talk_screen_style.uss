@@ -1,9 +1,0 @@
-.talk_button_style {
-    background-color: rgb(33, 96, 182);
-    border-left-color: rgb(38, 112, 212);
-    border-right-color: rgb(17, 55, 108);
-    border-top-color: rgb(38, 112, 212);
-    border-bottom-color: rgb(17, 55, 108);
-    position: absolute;
-    left: 59%;
-}

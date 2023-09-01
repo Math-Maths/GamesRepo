@@ -15,10 +15,10 @@ MonoBehaviour:
   gameplayType: 0
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 35b9f92ec87b57a4a8ab3541df4b881b, type: 2}
+    clip: {fileID: 7400000, guid: f38c8f582ecad12459035f9640375a58, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 12598571008
+      _serializedValue: 10737418240
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -46,7 +46,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 176
+  totalFrames: 188
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 2

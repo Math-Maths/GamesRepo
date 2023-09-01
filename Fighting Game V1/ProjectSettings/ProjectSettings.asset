@@ -844,13 +844,16 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Analytics: 0
-    Build: 1
+    Build: 0
     Collab: 0
     ErrorHub: 0
+    Game Performance: 0
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
     Unity_Ads: 0
   luminIcon:
     m_Name: 
@@ -865,11 +868,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: d322bc07-88ae-493e-b7f6-3d00f4331491
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: UFE Online
-  organizationId: 
+  projectName: Fighting Game V1
+  organizationId: karpinskigames
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   playerDataPath: 
