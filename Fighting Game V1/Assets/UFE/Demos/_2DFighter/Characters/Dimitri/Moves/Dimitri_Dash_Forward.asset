@@ -24,7 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 4814987845015228821, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
     type: 3}
   moveName: Dimitri_Dash_Forward
   description: Dimitri_Dash_Forward

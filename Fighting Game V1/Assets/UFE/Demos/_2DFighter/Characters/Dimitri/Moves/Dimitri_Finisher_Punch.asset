@@ -24,8 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 7140028427576739731, guid: 0a4e374bdd4c9d342a2da340c890a4af,
-    type: 3}
+  characterPrefab: {fileID: 0}
   moveName: Finisher_Punch
   description: Finisher_Punch
   fps: 60
@@ -784,11 +783,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -3236874752
+        _serializedValue: -195652336
       y:
-        _serializedValue: 23243730944
+        _serializedValue: 24741132288
       z:
-        _serializedValue: 5418157056
+        _serializedValue: -5994360320
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

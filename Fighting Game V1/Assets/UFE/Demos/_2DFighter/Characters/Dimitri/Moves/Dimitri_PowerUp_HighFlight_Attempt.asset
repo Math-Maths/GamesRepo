@@ -24,7 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 8757032484306540200, guid: e27d9b6a3772abc4cb9cda92634008b4,
     type: 3}
   moveName: Dimitri_PowerUp_HighFlight_Attempt
   description: Dimitri_PowerUp_HighFlight_Attempt
@@ -90,10 +90,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 
-    editorToggle: 0
+    buttonExecution: 0b000000
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 
@@ -167,7 +167,7 @@ MonoBehaviour:
     hitConfirmType: 1
     throwMove: {fileID: 11400000, guid: 5c6cd144ef784664fa97b9c43bea6216, type: 2}
     techMove: {fileID: 0}
-    techable: 1
+    techable: 0
     resetHitAnimations: 1
     forceStand: 0
     fixRotation: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 0
     hurtBoxesToggle: 1
     wallBounceToggle: 0
@@ -445,7 +445,7 @@ MonoBehaviour:
     enabled: 1
     activeFramesBegin: 21
     activeFramesEnds: 28
-    bodyPart: 2
+    bodyPart: 16
     hitBoxDefinitionIndex: 0
     shape: 0
     rect:
@@ -498,7 +498,7 @@ MonoBehaviour:
     followXBounds: 0
     followYBounds: 0
     _radius:
-      _serializedValue: 21474836480
+      _serializedValue: 42949672960
     _offSet:
       x:
         _serializedValue: 0
@@ -522,11 +522,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 4619281408
+        _serializedValue: 4498970624
       y:
-        _serializedValue: 21584871424
+        _serializedValue: 25201311744
       z:
-        _serializedValue: 3654373632
+        _serializedValue: -2314041344
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

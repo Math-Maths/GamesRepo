@@ -24,8 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
-    type: 3}
+  characterPrefab: {fileID: 0}
   moveName: Dimitri_Rolling_Smash_Attempt
   description: Dimitri_Rolling_Smash_Attempt
   fps: 60
@@ -90,10 +89,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 
-    editorToggle: 0
+    buttonExecution: 0c000000
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 
@@ -517,11 +516,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 0
+        _serializedValue: 4745669120
       y:
-        _serializedValue: 0
+        _serializedValue: 25484687360
       z:
-        _serializedValue: 0
+        _serializedValue: 2145593472
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

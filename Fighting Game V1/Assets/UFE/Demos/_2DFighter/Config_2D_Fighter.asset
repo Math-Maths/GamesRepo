@@ -296,20 +296,20 @@ MonoBehaviour:
     stabilizeDolly: 1
     enableZoom: 1
     followCharacters: 0
-    initialFieldOfView: 12
-    verticalPriority: 1
-    verticalThreshold: 2
-    movementSpeed: 12
+    initialFieldOfView: 15
+    verticalPriority: 2
+    verticalThreshold: 5
+    movementSpeed: 100
     minZoom: 40
     maxZoom: 60
     _maxDistance:
-      _serializedValue: 77309411328
-    rotationSpeed: 12
+      _serializedValue: 107374182400
+    rotationSpeed: 50
     leftBoundary: -33
     rightBoundary: 33
     rotationOffSet: {x: 0, y: 3.5, z: 0}
     motionSensor: 0
-    motionSensibility: 1
+    motionSensibility: 10
   lockOnOptions:
     lockOnType: 0
     lockOnButtonEnabled: 0
@@ -1007,6 +1007,70 @@ MonoBehaviour:
     inputViewerIcon4: {fileID: 0}
     inputViewerIcon5: {fileID: 0}
     inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: Button7
+    engineRelatedButton: 10
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: a51b93a793889204aa5070bd3680da67, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: Button8
+    engineRelatedButton: 11
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: ba161d6d4b05b544f9b0bb67ec878e85, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: Button9
+    engineRelatedButton: 12
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 27354fd4caf9e174b9e1ee554ef1e9b4, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: Button10
+    engineRelatedButton: 13
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 206d3c29b9801f84884ee51291be15e7, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
@@ -1192,7 +1256,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
-  - {fileID: 11400000, guid: 2f7f337adb5c459409e641c84dfbc6bc, type: 2}
+  - {fileID: 11400000, guid: 25139e8803c99ad47a42374908b3a71a, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
@@ -1392,7 +1456,7 @@ MonoBehaviour:
       charactersToggle: 0
     teamsToggle: 0
   debugOptions:
-    debugMode: 1
+    debugMode: 0
     emulateNetwork: 0
     trainingModeDebugger: 1
     preloadedObjects: 0
@@ -2097,7 +2161,7 @@ MonoBehaviour:
     lanDiscoveryBroadcastInterval: 1
     lanDiscoverySearchInterval: 5
     lanDiscoverySearchTimeout: 120
-    allowRollBacks: 1
+    allowRollBacks: 0
     rollbackBalancing: 2
     frameDelayType: 1
     minFrameDelay: 2

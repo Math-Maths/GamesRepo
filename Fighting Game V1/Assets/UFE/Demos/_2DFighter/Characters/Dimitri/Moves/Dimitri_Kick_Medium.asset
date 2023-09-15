@@ -15,16 +15,16 @@ MonoBehaviour:
   gameplayType: 0
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 2bb4a842999bc0e49ab9290d07f9ce7d, type: 2}
+    clip: {fileID: 7400000, guid: b8c85ba4717f64e45a16984370e2e038, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2863311616
+      _serializedValue: 3435974144
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 6442450944
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 8757032484306540200, guid: e27d9b6a3772abc4cb9cda92634008b4,
     type: 3}
   moveName: Dimitri_Kick_Medium
   description: Dimitri_Kick_Medium
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 40
-  startUpFrames: 18
-  activeFrames: 5
-  recoveryFrames: 17
+  totalFrames: 32
+  startUpFrames: 8
+  activeFrames: 13
+  recoveryFrames: 11
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 09000000
+    buttonExecution: 08000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
@@ -108,8 +108,8 @@ MonoBehaviour:
   moveClassification:
     attackType: 1
     hitType: 0
-    startupSpeed: 1
-    recoverySpeed: 1
+    startupSpeed: 2
+    recoverySpeed: 3
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 1
@@ -166,8 +166,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 18
-    activeFramesEnds: 22
+  - activeFramesBegin: 8
+    activeFramesEnds: 20
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -176,9 +176,9 @@ MonoBehaviour:
     forceStand: 0
     fixRotation: 0
     armorBreaker: 0
-    continuousHit: 0
+    continuousHit: 1
     unblockable: 0
-    spaceBetweenHits: 0
+    spaceBetweenHits: 4
     groundHit: 1
     crouchingHit: 1
     airHit: 1
@@ -253,7 +253,7 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 128849018880
+      _serializedValue: 107374182400
     _hitStunOnBlock:
       _serializedValue: 42949672960
     frameAdvantageOnHit: 0
@@ -447,8 +447,8 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 16
-    activeFramesEnds: 23
+    activeFramesBegin: 6
+    activeFramesEnds: 22
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -526,11 +526,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 240383872
+        _serializedValue: -842434816
       y:
-        _serializedValue: 26931609600
+        _serializedValue: 21616820224
       z:
-        _serializedValue: -2867459584
+        _serializedValue: -7319255552
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

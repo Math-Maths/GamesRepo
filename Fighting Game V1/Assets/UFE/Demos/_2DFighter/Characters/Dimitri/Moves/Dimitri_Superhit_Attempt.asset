@@ -24,7 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 4814987845015228821, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
     type: 3}
   moveName: Dimitri_Superhit_Attempt
   description: Dimitri_Superhit_Attempt
@@ -90,10 +90,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 
-    editorToggle: 0
+    buttonExecution: 0d000000
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 

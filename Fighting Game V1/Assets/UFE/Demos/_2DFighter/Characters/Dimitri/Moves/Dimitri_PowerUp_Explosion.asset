@@ -24,7 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 4814987845015228821, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
     type: 3}
   moveName: Dimitri_PowerUp_Explosion
   description: Dimitri_PowerUp_Explosion
@@ -66,7 +66,7 @@ MonoBehaviour:
     chargeMove: 0
     _chargeTiming:
       _serializedValue: 3006477107
-    allowInputLeniency: 0
+    allowInputLeniency: 1
     allowNegativeEdge: 0
     forceAxisPrecision: 0
     leniencyBuffer: 3
@@ -90,10 +90,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 
-    editorToggle: 0
+    buttonExecution: 0a000000
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 
@@ -131,35 +131,7 @@ MonoBehaviour:
     anyHitType: 1
     anyHitConfirmType: 1
   frameLinks: []
-  gauges:
-  - castingFrame: 54
-    targetGauge: 0
-    startDrainingGauge: 0
-    inhibitGainWhileDraining: 0
-    stopDrainingGauge: 0
-    _gaugeDPS:
-      _serializedValue: 0
-    _totalDrain:
-      _serializedValue: 0
-    _gaugeRequired:
-      _serializedValue: 429496729600
-    _gaugeUsage:
-      _serializedValue: 429496729600
-    _gaugeGainOnMiss:
-      _serializedValue: 0
-    _gaugeGainOnHit:
-      _serializedValue: 0
-    _gaugeGainOnBlock:
-      _serializedValue: 0
-    _opGaugeGainOnBlock:
-      _serializedValue: 0
-    _opGaugeGainOnParry:
-      _serializedValue: 0
-    _opGaugeGainOnHit:
-      _serializedValue: 0
-    DCMove: {fileID: 0}
-    DCStance: 0
-    editorToggle: 0
+  gauges: []
   sortOrder: []
   particleEffects:
   - castingFrame: 0

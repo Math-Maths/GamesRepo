@@ -15,16 +15,16 @@ MonoBehaviour:
   gameplayType: 0
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 832a0cfc6d589ed44b2c9e1626dc7b9d, type: 2}
+    clip: {fileID: 7400000, guid: ff2c26c5ff94fa34ebd4292cc80ed128, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2863311616
+      _serializedValue: 3435974144
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 6442450944
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 8757032484306540200, guid: e27d9b6a3772abc4cb9cda92634008b4,
     type: 3}
   moveName: Dimitri_Kick_Light
   description: Dimitri_Kick_Light
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 40
-  startUpFrames: 18
+  totalFrames: 32
+  startUpFrames: 12
   activeFrames: 5
-  recoveryFrames: 17
+  recoveryFrames: 15
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -180,8 +180,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 18
-    activeFramesEnds: 22
+  - activeFramesBegin: 12
+    activeFramesEnds: 16
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -267,7 +267,7 @@ MonoBehaviour:
     hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 128849018880
+      _serializedValue: 85899345920
     _hitStunOnBlock:
       _serializedValue: 42949672960
     frameAdvantageOnHit: 0
@@ -461,8 +461,8 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 16
-    activeFramesEnds: 24
+    activeFramesBegin: 9
+    activeFramesEnds: 17
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -540,11 +540,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -2495655168
+        _serializedValue: -3897152
       y:
-        _serializedValue: 26191489024
+        _serializedValue: 27638167552
       z:
-        _serializedValue: 2170556928
+        _serializedValue: 1639799552
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

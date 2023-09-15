@@ -15,19 +15,19 @@ MonoBehaviour:
   gameplayType: 0
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 4e75b598559929a42b15087a45ac71b1, type: 2}
+    clip: {fileID: 7400000, guid: f224d9079b78ea742ac38aa0d2910946, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 4581298688
+      _serializedValue: 3292808448
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 5583457280
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 4814987845015228821, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
     type: 3}
-  moveName: Super_Vilian_Heavy_Kick
-  description: Super_Vilian_Heavy_Kick
+  moveName: Dimitri_Heavy_Kick
+  description: Dimitri_Heavy_Kick
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 49
-  startUpFrames: 17
-  activeFrames: 5
-  recoveryFrames: 27
+  totalFrames: 35
+  startUpFrames: 13
+  activeFrames: 7
+  recoveryFrames: 15
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 08000000
+    buttonExecution: 09000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
@@ -122,8 +122,8 @@ MonoBehaviour:
   moveClassification:
     attackType: 1
     hitType: 0
-    startupSpeed: 1
-    recoverySpeed: 1
+    startupSpeed: 2
+    recoverySpeed: 2
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 1
@@ -171,7 +171,7 @@ MonoBehaviour:
   sortOrder: []
   particleEffects: []
   appliedForces:
-  - castingFrame: 24
+  - castingFrame: 13
     resetPreviousVertical: 0
     resetPreviousHorizontal: 0
     affectAssists: 0
@@ -193,8 +193,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 17
-    activeFramesEnds: 21
+  - activeFramesBegin: 13
+    activeFramesEnds: 19
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -280,9 +280,9 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 193273528320
+      _serializedValue: 85899345920
     _hitStunOnBlock:
-      _serializedValue: 42949672960
+      _serializedValue: 21474836480
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
@@ -294,7 +294,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 107374182400
     doesntKill: 0
-    hitType: 0
+    hitType: 3
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 15
+    activeFramesBegin: 13
     activeFramesEnds: 23
     bodyPart: 3
     hitBoxDefinitionIndex: 0
@@ -553,11 +553,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -4086053376
+        _serializedValue: 1028594240
       y:
-        _serializedValue: 22960371712
+        _serializedValue: 20997234688
       z:
-        _serializedValue: 993385088
+        _serializedValue: 2388988160
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

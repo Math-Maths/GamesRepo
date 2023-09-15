@@ -16,9 +16,9 @@ MonoBehaviour:
   profilePictureSmall: {fileID: 2800000, guid: 3a6cbff2f142d3443b3fc3d2540ab7e3, type: 3}
   profilePictureBig: {fileID: 2800000, guid: d6f7045baa3692f49bc1a3bfdaa771f1, type: 3}
   characterName: Dimitri
-  gender: 0
+  gender: 1
   characterDescription: 
-  selectionAnimation: {fileID: 7400000, guid: 2ec6a950d6dbdc949a56df4945d0c709, type: 2}
+  selectionAnimation: {fileID: 7400000, guid: 3fd3790f0e664aa59e3a2e80cce38f60, type: 3}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
   height: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 400
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 8757032484306540200, guid: e27d9b6a3772abc4cb9cda92634008b4,
     type: 3}
   prefabResourcePath: 
   alternativeCostumes: []
@@ -91,8 +91,8 @@ MonoBehaviour:
     overrideControlFreak: 0
     controlFreak2Prefab: {fileID: 0}
     zAxisMovement: 0
-    disableJump: 1
-    disableCrouch: 1
+    disableJump: 0
+    disableCrouch: 0
     jumpButton: 2
     crouchButton: 3
   hideGauges: 00000000000000000000
@@ -102,14 +102,14 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 429496736
   animationType: 1
-  avatar: {fileID: 9000000, guid: ad1dd96bdefada242bb473ef50b855dd, type: 3}
+  avatar: {fileID: 9000000, guid: 26a689e3ff4e82046b295b4fe8df8d25, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _2DFighter\MoveSets\SuperVilian
+  - _2DFighter\MoveSets\Dimitri
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 50d4630698994bd45b6f19bf649b3a90, type: 2}

@@ -24,7 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 8757032484306540200, guid: e27d9b6a3772abc4cb9cda92634008b4,
     type: 3}
   moveName: Dimitri_PowerUp_HighFlight_Attacker
   description: Dimitri_PowerUp_HighFlight_Attacker
@@ -47,9 +47,9 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 184
-  startUpFrames: 74
-  activeFrames: 3
-  recoveryFrames: 107
+  startUpFrames: 75
+  activeFrames: 26
+  recoveryFrames: 83
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -102,9 +102,23 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      blockStunned: 0
+      stunned: 0
+      resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 1
     hitType: 0
@@ -120,9 +134,62 @@ MonoBehaviour:
   gauges: []
   sortOrder: []
   particleEffects: []
-  appliedForces: []
-  opAppliedForces: []
-  slowMoEffects: []
+  appliedForces:
+  - castingFrame: 15
+    resetPreviousVertical: 0
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 279172874240
+      z:
+        _serializedValue: 0
+  - castingFrame: 47
+    resetPreviousVertical: 0
+    resetPreviousHorizontal: 0
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: -300647710720
+      z:
+        _serializedValue: 0
+  opAppliedForces:
+  - castingFrame: 15
+    resetPreviousVertical: 0
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 279172874240
+      z:
+        _serializedValue: 0
+  - castingFrame: 47
+    resetPreviousVertical: 0
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: -300647710720
+      z:
+        _serializedValue: 0
+  slowMoEffects:
+  - castingFrame: 0
+    _duration:
+      _serializedValue: 0
+    _percentage:
+      _serializedValue: 0
   bodyPartVisibilityChanges: []
   opponentOverride:
   - _position:
@@ -151,8 +218,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 74
-    activeFramesEnds: 76
+  - activeFramesBegin: 75
+    activeFramesEnds: 100
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -265,7 +332,7 @@ MonoBehaviour:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: -429496729600
       z:
         _serializedValue: 0
     _pushForceAir:
@@ -361,20 +428,20 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
-    hitStunOptionsToggle: 1
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
-    opponentForceToggle: 0
+    opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
-    overrideEventsToggle: 1
+    overrideEventsToggle: 0
     hitConditionsToggle: 1
     pullInToggle: 0
     hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 17
+    - bodyPart: 2
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -391,47 +458,47 @@ MonoBehaviour:
         _x:
           _serializedValue: -27444840448
         _y:
-          _serializedValue: 0
+          _serializedValue: -9706626048
         topRight:
           x:
-            _serializedValue: 29377574912
+            _serializedValue: 39642546176
           y:
-            _serializedValue: 0
+            _serializedValue: -9706626048
           z:
             _serializedValue: 0
         topLeft:
           x:
             _serializedValue: -27444840448
           y:
-            _serializedValue: 0
+            _serializedValue: -9706626048
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 29377574912
+            _serializedValue: 39642546176
           y:
-            _serializedValue: 15504831488
+            _serializedValue: 16707423232
           z:
             _serializedValue: 0
         bottomLeft:
           x:
             _serializedValue: -27444840448
           y:
-            _serializedValue: 15504831488
+            _serializedValue: 16707423232
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 56822415360
+          _serializedValue: 67087388672
         height:
-          _serializedValue: 15504831488
+          _serializedValue: 26414049280
         xMax:
-          _serializedValue: 29377574912
+          _serializedValue: 39642546176
         yMax:
-          _serializedValue: 15504831488
+          _serializedValue: 16707423232
       shape: 1
       type: 0
   blockableArea:
-    enabled: 1
+    enabled: 0
     activeFramesBegin: 0
     activeFramesEnds: 0
     bodyPart: 0

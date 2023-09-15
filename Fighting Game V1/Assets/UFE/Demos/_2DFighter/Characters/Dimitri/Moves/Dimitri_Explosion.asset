@@ -24,7 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 7140028427576739731, guid: 0a4e374bdd4c9d342a2da340c890a4af,
+  characterPrefab: {fileID: 4814987845015228821, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
     type: 3}
   moveName: Super_Vilian_Explosion
   description: Super_Vilian_Explosion
@@ -505,11 +505,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -254451008
+        _serializedValue: 744396736
       y:
-        _serializedValue: 17241370624
+        _serializedValue: 17838010368
       z:
-        _serializedValue: 78018224
+        _serializedValue: -189151424
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

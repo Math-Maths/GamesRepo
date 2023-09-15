@@ -15,16 +15,16 @@ MonoBehaviour:
   gameplayType: 0
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 5fc0936fe41a52e4b936cb8eb2011853, type: 2}
+    clip: {fileID: 7400000, guid: b632a3881477b194a8a6c15f117063ac, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2433815040
+      _serializedValue: 3435974144
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 6442450944
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 8757032484306540200, guid: e27d9b6a3772abc4cb9cda92634008b4,
     type: 3}
   moveName: Dimitri_Punch_Light
   description: Dimitri_Punch_Light
@@ -46,10 +46,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 34
-  startUpFrames: 22
+  totalFrames: 32
+  startUpFrames: 8
   activeFrames: 7
-  recoveryFrames: 5
+  recoveryFrames: 17
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -122,8 +122,8 @@ MonoBehaviour:
   moveClassification:
     attackType: 1
     hitType: 0
-    startupSpeed: 1
-    recoverySpeed: 4
+    startupSpeed: 3
+    recoverySpeed: 1
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 1
@@ -179,8 +179,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 22
-    activeFramesEnds: 28
+  - activeFramesBegin: 8
+    activeFramesEnds: 14
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -389,9 +389,9 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
-    hitStunOptionsToggle: 1
-    forceOptionsToggle: 1
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
+    forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
     stageReactionsToggle: 0
@@ -460,8 +460,8 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 21
-    activeFramesEnds: 31
+    activeFramesBegin: 7
+    activeFramesEnds: 16
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -539,11 +539,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -165703488
+        _serializedValue: 1676342272
       y:
-        _serializedValue: 27054442496
+        _serializedValue: 27314810880
       z:
-        _serializedValue: 881959936
+        _serializedValue: 561273728
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

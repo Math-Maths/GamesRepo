@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: Dimitri_Uppercut
+  m_Name: Dimitri_Punch_Medium
   m_EditorClassIdentifier: 
   gameplayType: 0
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 7d8d1830a534dae4bb10bffc70adfbd0, type: 2}
+    clip: {fileID: 7400000, guid: 3cb1c9db7575f90498e11103301e5717, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3292808448
+      _serializedValue: 3435974144
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 6442450944
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 4814987845015228821, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
     type: 3}
-  moveName: Super_Vilian_Uppercut
-  description: Super_Vilian_Uppercut
+  moveName: Dimitri_Punch_Medium
+  description: Dimitri_Punch_Medium
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -47,9 +47,9 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 30
-  startUpFrames: 16
+  startUpFrames: 8
   activeFrames: 6
-  recoveryFrames: 8
+  recoveryFrames: 16
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -122,8 +122,8 @@ MonoBehaviour:
   moveClassification:
     attackType: 1
     hitType: 3
-    startupSpeed: 1
-    recoverySpeed: 3
+    startupSpeed: 3
+    recoverySpeed: 1
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 1
@@ -169,7 +169,7 @@ MonoBehaviour:
   sortOrder: []
   particleEffects: []
   appliedForces:
-  - castingFrame: 18
+  - castingFrame: 10
     resetPreviousVertical: 0
     resetPreviousHorizontal: 0
     affectAssists: 0
@@ -191,8 +191,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 16
-    activeFramesEnds: 21
+  - activeFramesBegin: 8
+    activeFramesEnds: 13
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -278,7 +278,7 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 171798691840
+      _serializedValue: 107374182400
     _hitStunOnBlock:
       _serializedValue: 64424509440
     frameAdvantageOnHit: 0
@@ -303,9 +303,9 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 128849018880
+        _serializedValue: 64424509440
       y:
-        _serializedValue: 21474836480
+        _serializedValue: 8589934592
       z:
         _serializedValue: 0
     _pushForceAir:
@@ -414,7 +414,7 @@ MonoBehaviour:
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 9
+    - bodyPart: 8
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -429,51 +429,51 @@ MonoBehaviour:
         _serializedValue: 2147483648
       _rect:
         _x:
-          _serializedValue: -1030792128
+          _serializedValue: -1116691456
         _y:
-          _serializedValue: -2920577792
+          _serializedValue: -3693671936
         topRight:
           x:
-            _serializedValue: 3478923264
+            _serializedValue: 5798205952
           y:
-            _serializedValue: -2920577792
+            _serializedValue: -3693671936
           z:
             _serializedValue: 0
         topLeft:
           x:
-            _serializedValue: -1030792128
+            _serializedValue: -1116691456
           y:
-            _serializedValue: -2920577792
+            _serializedValue: -3693671936
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 3478923264
+            _serializedValue: 5798205952
           y:
-            _serializedValue: 3135325952
+            _serializedValue: 3178275840
           z:
             _serializedValue: 0
         bottomLeft:
           x:
-            _serializedValue: -1030792128
+            _serializedValue: -1116691456
           y:
-            _serializedValue: 3135325952
+            _serializedValue: 3178275840
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 4509715456
+          _serializedValue: 6914897408
         height:
-          _serializedValue: 6055903744
+          _serializedValue: 6871947776
         xMax:
-          _serializedValue: 3478923264
+          _serializedValue: 5798205952
         yMax:
-          _serializedValue: 3135325952
+          _serializedValue: 3178275840
       shape: 1
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 14
-    activeFramesEnds: 23
+    activeFramesBegin: 6
+    activeFramesEnds: 15
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -551,11 +551,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -495844608
+        _serializedValue: 1207198592
       y:
-        _serializedValue: 26920349696
+        _serializedValue: 25131237376
       z:
-        _serializedValue: 16112320
+        _serializedValue: 4523158016
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

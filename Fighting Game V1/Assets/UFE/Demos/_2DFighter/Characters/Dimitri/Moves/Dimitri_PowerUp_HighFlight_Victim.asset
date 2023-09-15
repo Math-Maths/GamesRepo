@@ -24,7 +24,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 5830855619590215542, guid: 230791ab8f7e4ec4f8c42b7d583bc981,
+  characterPrefab: {fileID: 8757032484306540200, guid: e27d9b6a3772abc4cb9cda92634008b4,
     type: 3}
   moveName: Dimitri_PowerUp_HighFlight_Victim
   description: Dimitri_PowerUp_HighFlight_Victim
@@ -42,14 +42,14 @@ MonoBehaviour:
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 0
-  disableHeadLook: 1
+  disableHeadLook: 0
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 188
-  startUpFrames: 0
-  activeFrames: 1
-  recoveryFrames: 2
+  totalFrames: 150
+  startUpFrames: 75
+  activeFrames: 29
+  recoveryFrames: 80
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -57,11 +57,11 @@ MonoBehaviour:
   forceGrounded: 0
   rootMotionNode: 0
   overrideBlendingIn: 1
-  overrideBlendingOut: 0
+  overrideBlendingOut: 1
   _blendingIn:
     _serializedValue: 0
   _blendingOut:
-    _serializedValue: 0
+    _serializedValue: 858993472
   defaultInputs:
     chargeMove: 0
     _chargeTiming:
